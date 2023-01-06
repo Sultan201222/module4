@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Audio & Video in HTML5</title>
+    <style>
+        .table{
+            border-collapse: collapse;
+        }
+
+        th, td{
+            border: 1px solid #717570;
+            padding: 6px 17px;
+            color: #8c8bc0;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        #rowspan{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>This is navigation</h1>
+        <ul>
+            <li>Home</li>
+            <li>video</li>
+            <li>audio</li>
+            <li>icon</li>
+            <li>contract</li>
+        </ul>
+    </header>
+        <main>
+            <section class="blogs">
+                <article>
+                    <h2>Lorem blogs</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa possimus eum rem id fugiat illum vero blanditiis sed incidunt unde, neque magni doloribus earum libero quo, quod nisi iusto? Quasi?
+                    </p>
+                </article>
+                <article>
+                    <h2>Lorem blogs</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa possimus eum rem id fugiat illum vero blanditiis sed incidunt unde, neque magni doloribus earum libero quo, quod nisi iusto? Quasi?
+                    </p>
+                </article>
+                <article>
+                    <h2>Lorem blogs</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa possimus eum rem id fugiat illum vero blanditiis sed incidunt unde, neque magni doloribus earum libero quo, quod nisi iusto? Quasi?
+                    </p>
+                </article>
+            </section>
+            <section>
+                <div class="picture">
+
+                </div>
+            </section>
+            <section >
+                <h2>Video & Audio</h2>
+                <div class="video">
+                   <video src="assests/media/video2.mp4" controls width="500px" height="300px"></video>
+                </div>
+                <div>
+                    <audio src="assests/media/audio.mp3"  controls></audio>
+                </div>
+
+            </section>
+            <section >
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>firstname</th>
+                            <th>Lastname</th>
+                            <th>Age</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Arman</td>
+                            <td rowspan="3" id="rowspan">hasan</td>
+                            <td>23</td>
+                        </tr>
+                        <tr>
+                            <td>Abir</td>
+                            
+                            <td>21</td>
+                        </tr>
+                        <tr>
+                            <td>Rayhan</td>
+                            
+                            <td>20</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        <footer>
+            <h2>This is footer</h2>
+            <p><small>our contract</small></p>
+        </footer>
+        <form  class="form1">
+            <h2>This is form</h2>
+            <label for="name">Name
+                <input id="name" type="text" placeholder="Your Name">
+            </label>
+            <label for="email">Email
+                <input id="email" type="email"  placeholder="Your email">
+            </label>
+            <label for="phone number">Nubr
+                <input type="text" name="number" id="phone number" placeholder="number">
+            </label>
+
+            <fieldset>
+                <legend>Pick your choice</legend>
+                <label for="PC">
+                    <input id="pc" name="tech product" type="radio">PC
+                </label>
+                <label for="Mac">
+                    <input id="Mac" name="tech product" type="radio">Mac
+                </label>
+                <label for="laptop">
+                    <input id="laptop" name="tech product" type="radio">Laptop
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Happy choice</legend>
+                <label for="keyboard">
+                    <input id="keyboard" name="accessories" type="checkbox">keyboard.
+                </label>
+                <label for="keyboard">
+                    <input id="keyboard" name="accessories" type="checkbox">Mouse.
+                </label>
+                <label for="keyboard">
+                    <input id="keyboard" name="accessories" type="checkbox">Earphone.
+                </label>
+                <label for="keyboard">
+                    <input id="keyboard" name="accessories" type="checkbox">Mic.
+                </label>
+                <label for="keyboard">
+                    <input id="keyboard" name="accessories" type="checkbox">Camera.
+                </label>
+                <label for="keyboard">
+                    <input id="keyboard" name="accessories" type="checkbox">light.
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Would you like to feedback</legend>
+                <label for="feedback">
+                    <textarea name="feedback" id="feedback" cols="50" rows="7"></textarea>
+                </label>
+            </fieldset>
+            <input type="reset" value="reset">
+            <input type="submit" value="submit">
+        </form>
+</body>
+</html>

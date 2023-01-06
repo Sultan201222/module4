@@ -1,0 +1,28 @@
+li {
+    display: inline-block;
+    color: #e4ff50;
+    background-color: #565e5c;
+    padding: 10px 15px;
+    margin: 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+li:hover {
+    color: #0f1314;
+    background-color: #afe060;
+}
+
+/* ==============form tag ar css akhane  =================*/
+
+label {
+    display:block;
+    margin-bottom: 10px;
+}
+
+.form1{
+    
+    background: rgb(157, 182, 134);
+    color: #03020a;
+    text-align: justify;
+}
