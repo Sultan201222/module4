@@ -26,3 +26,18 @@ label {
     color: #03020a;
     text-align: justify;
 }
+
+/*===============Table tag===============*/
+.table{
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid #717570;
+    padding: 6px 17px;
+    color: #8c8bc0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#rowspan{
+    text-align: center;
+}
